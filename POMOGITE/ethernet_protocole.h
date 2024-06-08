@@ -3,7 +3,7 @@
 
 #include "constants.h"
 
-struct time
+struct wastedtime
 {
     int hour;
     int minute;
@@ -17,8 +17,8 @@ struct bytes
 
 struct ethernet_protocole
 {
-    time start;
-    time end;
+    wastedtime start;
+    wastedtime end;
     bytes received;
     bytes dispatched;
     char path[MAX_STRING_SIZE];
